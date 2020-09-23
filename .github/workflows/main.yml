@@ -31,8 +31,8 @@ jobs:
           username: ${{ secrets.SHH_USER }}
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEY }}
-          source: "dist"
-          target: "test"
+          source: "."
+          target: "~/app/GoBarber-api"
       
       # Copiar pasta dis para dentro da Digital Ocean
       
